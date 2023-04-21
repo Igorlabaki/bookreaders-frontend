@@ -34,7 +34,7 @@ export function ModalComponent({
             onClick={(e) => handleOutsideClick(e)}
             className={`${
                 styleExternal ? styleExternal : "bg-black/40"
-            } flex flex-wrap w-full h-full justify-center items-center fixed top-0 right-0 z-50 `}
+            } flex  w-full h-full justify-center items-center fixed top-0 right-0 z-50 `}
         >
             <div id="internal_modal" className={`${styleInternal} absolute`}>
                 {children}
